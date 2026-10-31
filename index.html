@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Tauhid Alfansah</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigasi -->
+    <nav id="navbar">
+        <div class="logo">Portofolio.</div>
+        <ul class="nav-links">
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#pengalaman-proyek">Proyek</a></li>
+            <li><a href="#sertifikasi">Sertifikasi</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- Bagian Beranda / Hero -->
+    <section id="beranda" class="hero">
+        <div class="hero-content">
+            <h1>Hai, Saya <span class="highlight">Tauhid Alfansah</span></h1>
+            <h2 class="role-text">Web Development | System Analyst | Bussiness Service</h2>
+            <a href="#pengalaman-proyek" class="btn">Lihat Proyek Saya</a>
+            <a href="assets/Tauhid_Alfansah_Resume_Updated.pdf" class="btn btn-outline" download>Download CV</a>
+        </div>
+    </section>
+
+    <!-- Bagian Tentang -->
+    <section id="tentang">
+        <div class="about-content">
+            
+            <!-- Sisi Kiri: Foto Formal -->
+            <div class="about-image">
+                <img src="assets/foto-formal.jpeg" alt="Foto Formal Tauhid Alfansah">
+            </div>
+
+            <!-- Sisi Kanan: Deskripsi dan Skills -->
+            <div class="about-text">
+                
+                <!-- Pembungkus Judul agar Center & Berlatar Belakang menarik -->
+                <div class="about-title-wrapper">
+                    <h2 class="title-badge">Tentang Saya</h2>
+                </div>
+                
+                <p>Saya adalah Lulusan S1 Sistem Informasi bersertifikasi BNSP sebagai System Analyst dengan spesialisasi pada perancangan arsitektur sistem berbasis Web dan IT Business Development. Memiliki rekam jejak magang berbasis project web manajemen layanan pelanggan di Telkom Witel Purwokerto, serta sebagai web Development dalam project website bludpariwisata.com di BLUD Pariwisata Banyumas dibawah Dinas Pariwisata Banyumas. Saya terbiasa memimpin dan berkolaborasi bersama tim lintas fungsi dalam menjaga keandalan operasional, infrastruktur IT, dan basis data perusahaan agar memenuhi standar kelayakan bisnis.</p>
+                
+                <div class="skills">
+                    <!-- Baris Atas (3 Skill) -->
+                    <div class="skill-row">
+                        <span class="skill-tag">HTML & CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Laravel</span>
+                    </div>
+                    <!-- Baris Bawah (3 Skill) -->
+                    <div class="skill-row">
+                        <span class="skill-tag">SDLC</span>
+                        <span class="skill-tag">System Analyst</span>
+                        <span class="skill-tag">Problem Solving</span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+<!-- Bagian Pengalaman Proyek -->
+<section id="pengalaman-proyek" class="section-layer">
+    <div class="layer-container">
+        <h2 class="layer-title">Pengalaman <span class="highlight">Proyek</span></h2>
+        
+        <div class="project-list">
+            
+            <!-- Proyek 1: Magang -->
+            <div class="project-card">
+                <div class="project-header">
+                    <div>
+                        <span class="badge badge-magang">Magang</span>
+                        <h3>Web Development Internship</h3>
+                    </div>
+                    <span class="period">Juli 2025 - Agustus 2025</span>
+                </div>
+                <h4>Dinporabudpar Kabupaten Banyumas (BLUD Pariwisata)</h4>
+                
+                <p class="project-desc">
+                    Mengembangkan sistem reservasi venue terintegrasi pada website <code>bludpariwisata.com</code> untuk mengatasi kendala <i>double-booking</i>, serta membangun dasbor pemantauan berbasis Laravel.
+                </p>
+
+                <div class="tech-tags">
+                    <span>Laravel</span>
+                    <span>MySQL</span>
+                    <span>HTML5 & CSS3</span>
+                    <span>Bootstrap</span>
+                </div>
+
+                <!-- Galeri Dokumentasi Geser -->
+                <div class="project-gallery-wrapper">
+                    <p class="gallery-title">📷 Dokumentasi Proyek:</p>
+                    <div class="project-gallery">
+                        <div class="gallery-item" onclick="openLightbox(this)">
+                            <img src="assets/Sertifikat Magang BLUD Tauhid.jpeg" alt="Sertifikat Magang BLUD" onerror="this.src='https://via.placeholder.com/400x250?text=Sertifikat+Magang'">
+                            <span>Sertifikat Magang</span>
+                        </div>
+                        <div class="gallery-item" onclick="openLightbox(this)">
+                            <img src="assets/KEGIATAN MAGANG BLUD.jpeg" alt="Kegiatan Magang BLUD" onerror="this.src='https://via.placeholder.com/400x250?text=Kegiatan+Magang'">
+                            <span>Kegiatan Magang</span>
+                        </div>
+                        <div class="gallery-item" onclick="openLightbox(this)">
+                            <img src="assets/dokumentasi website blud.jpeg" alt="Dokumentasi Website BLUD" onerror="this.src='https://via.placeholder.com/400x250?text=Dokumentasi+Website'">
+                            <span>Dokumentasi Website</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Proyek 2: Magang -->
+            <div class="project-card">
+                <div class="project-header">
+                    <div>
+                        <span class="badge badge-magang">Magang</span>
+                        <h3>System Analyst</h3>
+                    </div>
+                    <span class="period">Januari 2025 - Februari 2025</span>
+                </div>
+                <h4>PT. Telkom Witel Purwokerto</h4>
+                
+                <p class="project-desc">
+                    Merancang arsitektur operasional enterprise dan pemetaan basis data fisik hingga 3NF pada MySQL untuk sistem manajemen kontrak pelanggan.
+                </p>
+
+                <div class="tech-tags">
+                    <span>SDLC</span>
+                    <span>UML/ERD</span>
+                    <span>3NF Normalization</span>
+                    <span>MySQL</span>
+                </div>
+
+                <!-- Galeri Dokumentasi Geser -->
+                <div class="project-gallery-wrapper">
+                    <p class="gallery-title">📷 Dokumentasi Proyek:</p>
+                    <div class="project-gallery">
+                        <div class="gallery-item" onclick="openLightbox(this)">
+                            <img src="assets/Sertifikat Magang Witel Tauhid.jpg" alt="Sertifikat Magang Witel" onerror="this.src='https://via.placeholder.com/400x250?text=Sertifikat+Telkom'">
+                            <span>Sertifikat Witel</span>
+                        </div>
+                        <div class="gallery-item" onclick="openLightbox(this)">
+                            <img src="assets/Kegiatan Magang Witel.jpeg" alt="Kegiatan Magang Telkom" onerror="this.src='https://via.placeholder.com/400x250?text=Kegiatan+Telkom'">
+                            <span>Kegiatan Magang</span>
+                        </div>
+                        <div class="gallery-item" onclick="openLightbox(this)">
+                            <img src="assets/tampilan sistem witel.jpeg" alt="Preview UI sistem witel" onerror="this.src='https://via.placeholder.com/400x250?text=Kegiatan+Telkom'">
+                            <span>Tampilan UI Sistem</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Proyek 3: Lomba(Contoh) -->
+            <div class="project-card">
+                <div class="project-header">
+                    <div>
+                        <span class="badge badge-lomba">Case Project</span>
+                        <h3>Sistem Manajemen Gudang Terpusat BLUD Pariwisata Banyumas</h3>
+                    </div>
+                    <span class="period">2025</span>
+                </div>
+                <h4>Mata Kuliah Capstone Project & Desain</h4>
+                
+                <p class="project-desc">
+                    Membangun web sistem manajemen gudang terpusat untuk semua inventaris dan stok di BLUD Pariwisata Banyumas.
+                </p>
+
+                <div class="tech-tags">
+                    <span>Laravel</span>
+                    <span>First-In First-Out</span>
+                    <span>MySQL</span>
+                    <span>Rapid Aplication Development (RAD)</span>
+                </div>
+
+                <div class="project-gallery-wrapper">
+                    <p class="gallery-title">📷 Dokumentasi Proyek:</p>
+                    <div class="project-gallery">
+                        <div class="gallery-item" onclick="openLightbox(this)">
+                            <img src="assets/tampilan sistem gudang blud.jpeg" alt="tampilan sistem gudang" onerror="this.src='https://via.placeholder.com/400x250?text=Sertifikat+Lomba'">
+                            <span>Tampilan Sistem</span>
+                        </div>
+                        <div class="gallery-item" onclick="openLightbox(this)">
+                            <img src="assets/implementasi basis data capstone.jpeg" alt="basis data" onerror="this.src='https://via.placeholder.com/400x250?text=Preview+Aplikasi'">
+                            <span>Implementasi Basis Data</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Proyek 3: Lomba(Contoh) -->
+            <div class="project-card">
+                <div class="project-header">
+                    <div>
+                        <span class="badge badge-lomba">Kompetisi</span>
+                        <h3>Website Qtime Outdoor</h3>
+                    </div>
+                    <span class="period">Maret 2024 - Agustus 2024</span>
+                </div>
+                <h4>Program Permbinaan Mahasiswa Wirausaha (P2MW)</h4>
+                
+                <p class="project-desc">
+                    Membangun web solusi jasa sewa perlengkapan outdoor area BarLingMasCaKeb.
+                </p>
+
+                <div class="tech-tags">
+                    <span>Laravel</span>
+                    <span>HTML/CSS</span>
+                    <span>MySQL</span>
+                </div>
+
+                <div class="project-gallery-wrapper">
+                    <p class="gallery-title">📷 Dokumentasi Proyek:</p>
+                    <div class="project-gallery">
+                        <div class="gallery-item" onclick="openLightbox(this)">
+                            <img src="assets/tauhid p2mw.jpg" alt="Sertifikat Lomba" onerror="this.src='https://via.placeholder.com/400x250?text=Sertifikat+Lomba'">
+                            <span>Sertifikat P2MW</span>
+                        </div>
+                        <div class="gallery-item" onclick="openLightbox(this)">
+                            <img src="assets/preview p2mw.jpeg" alt="Tampilan Aplikasi" onerror="this.src='https://via.placeholder.com/400x250?text=Preview+Aplikasi'">
+                            <span>Preview UI Website</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Proyek 4: Lomba(Contoh) -->
+            <div class="project-card">
+                <div class="project-header">
+                    <div>
+                        <span class="badge badge-lomba">Kompetisi</span>
+                        <h3>EcoFloat Farms: Pertanian Terapung Berbasis Aquaponik</h3>
+                    </div>
+                    <span class="period">Oktober 2023 - Februari 2024</span>
+                </div>
+                <h4>Innovillage 2023 | Telkom Indonesia</h4>
+                
+                <p class="project-desc">
+                    TOP 163 inovasi terbaik tingkat nasional melalui EcoFloat Farms: Sistem Pertanian Terapung berbasis Aquaponik.
+                </p>
+
+                <div class="tech-tags">
+                    <span>Panel Surya</span>
+                    <span>Aquaponik</span>
+                </div>
+
+                <div class="project-gallery-wrapper">
+                    <p class="gallery-title">📷 Dokumentasi Proyek:</p>
+                    <div class="project-gallery">
+                        <div class="gallery-item" onclick="openLightbox(this)">
+                            <img src="assets/tauhid sertifikat innovillage.jpg" alt="Sertifikat Lomba" onerror="this.src='https://via.placeholder.com/400x250?text=Sertifikat+Lomba'">
+                            <span>Sertifikat Innovillage</span>
+                        </div>
+                        <div class="gallery-item" onclick="openLightbox(this)">
+                            <img src="assets/implementasi alat innovilage.jpeg" alt="Implementasi Alat" onerror="this.src='https://via.placeholder.com/400x250?text=Preview+Aplikasi'">
+                            <span>Implementasi Alat</span>
+                        </div>
+                        <div class="gallery-item" onclick="openLightbox(this)">
+                            <img src="assets/kegiatan innovillage.jpeg" alt="Implementasi Kegiatan" onerror="this.src='https://via.placeholder.com/400x250?text=Preview+Aplikasi'">
+                            <span>Dokumentasi Kegiatan</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Lightbox Modal untuk Zoom / Preview Foto -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <span class="lightbox-close">&times;</span>
+    <img id="lightbox-img" src="" alt="Preview">
+    <p id="lightbox-caption"></p>
+</div>
+
+    <!-- ================= LAYER SERTIFIKASI ================= -->
+    <section id="sertifikasi" class="section-layer cert-section">
+        <div class="layer-container">
+            <h2 class="layer-title">Sertifikasi <span class="highlight">Profesi</span></h2>
+            
+            <div class="cert-card">
+                <!-- Wrapper Gambar Sertifikat (Besar & Proporsional) -->
+                <div class="cert-image-wrapper">
+                    <!-- Ganti 'sertifikat-bnsp.jpg' dengan nama file foto sertifikat kamu -->
+                    <img src="assets/sertifikat kompetensi tauhid.jpeg" alt="Sertifikat BNSP System Analyst" onerror="this.src='https://via.placeholder.com/800x550?text=Sertifikat+BNSP+System+Analyst'">
+                </div>
+
+                <!-- Informasi Detail Sertifikat -->
+                <div class="cert-info">
+                    <h3>System Analyst</h3>
+                    <p class="cert-issuer">Badan Nasional Sertifikasi Profesi (BNSP)</p>
+                    <p class="cert-desc">Sertifikasi kompetensi resmi sebagai System Analyst untuk perancangan arsitektur sistem, pemodelan proses bisnis, serta dokumentasi perangkat lunak standar industri.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Layer Kontak Full & Centered -->
+<section id="kontak" class="contact-section">
+    <div class="contact-wrapper">
+        
+        <!-- Status Badge -->
+        <div class="contact-badge">
+            <span class="pulse-dot"></span> Open for Opportunities
+        </div>
+
+        <h2 class="contact-title">Mari Bekerja Sama!</h2>
+        <p class="contact-subtitle">
+            Tertarik berkolaborasi atau punya peluang menarik? Terhubung langsung dengan saya melalui platform di bawah ini.
+        </p>
+
+        <!-- Kartu Kontak Sejajar -->
+        <div class="contact-cards-group">
+            
+            <!-- Email -->
+            <a href="mailto:tauhidalfansah1204@gmail.com" class="contact-card email-card">
+                <div class="icon-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="#4285F4" d="M20 18h-2V9.25L12 13.5 6 9.25V18H4V6h1.5l6.5 4.75L18.5 6H20v12z"/>
+                        <path fill="#EA4335" d="M18.5 6L12 10.75 5.5 6H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h2V9.25L12 13.5l6-4.25V18h2c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-1.5z"/>
+                    </svg>
+                </div>
+                <div class="card-info">
+                    <span class="card-label">Email</span>
+                    <p class="card-value">tauhidalfansah1204@gmail.com</p>
+                </div>
+            </a>
+
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/tauhid-alfansah" target="_blank" rel="noopener noreferrer" class="contact-card linkedin-card">
+                <div class="icon-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="#0A66C2">
+                        <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+                    </svg>
+                </div>
+                <div class="card-info">
+                    <span class="card-label">LinkedIn</span>
+                    <p class="card-value">Tauhid Alfansah</p>
+                </div>
+            </a>
+
+            <!-- WhatsApp -->
+            <a href="https://wa.me/6288216243695" target="_blank" rel="noopener noreferrer" class="contact-card wa-card">
+                <div class="icon-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="#25D366">
+                        <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+                    </svg>
+                </div>
+                <div class="card-info">
+                    <span class="card-label">WhatsApp</span>
+                    <p class="card-value">0882-1624-3695</p>
+                </div>
+            </a>
+
+        </div>
+    </div>
+</section>
+
+    <footer>
+        <p>&copy; Copyright Tauhid Alfansah 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
